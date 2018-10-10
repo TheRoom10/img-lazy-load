@@ -5,7 +5,7 @@ A JS Lazy Load script for html images.
 You need to link JS file in  **bottom** of your HTML file.
 
 ```html
-<script src="img-lazy-load.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TheRoom10/img-lazy-load@1.0/img-lazy-load.js"></script>
 ```
 
 Then change the **src** attribute by **data-src** for example:
