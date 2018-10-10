@@ -18,6 +18,6 @@ Finally only need to initialize the "LazyLoad()" function when document ready:
 
 ```javascript
 window.onload = function() {
-  LazyLoad()
+  LazyLoad();
 };
 ```
