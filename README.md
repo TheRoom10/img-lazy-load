@@ -14,7 +14,7 @@ Then change the **src** attribute by **data-src** for example:
 <img data-src="example-img.jpg">
 ```
 
-Finally only need to initiate the "LazyLoad()" function when document ready:
+Finally only need to initialize the "LazyLoad()" function when document ready:
 
 ```javascript
 window.onload = function() {
