@@ -8,8 +8,16 @@ You need to link JS file in  **bottom** of your HTML file.
 <script src="img-lazy-load.js"></script>
 ```
 
-Then only need to change the **src** attribute by **data-src** for example:
+Then change the **src** attribute by **data-src** for example:
 
 ```html
 <img data-src="example-img.jpg">
+```
+
+Finally only need to initiate the "LazyLoad()" function when document ready:
+
+```javascript
+window.onload = function() {
+  LazyLoad()
+};
 ```
